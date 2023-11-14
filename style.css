@@ -1,0 +1,105 @@
+
+    #inp {
+      border: 0.25px solid black;
+    }
+
+    .list_d_btn {
+      background-color: #8bde0e;
+      font-size: x-small;
+      border-radius: 5px;
+      border: 0.25px solid black;
+    }
+
+    .list_d_btn:hover {
+      cursor: pointer;
+      background-color: red;
+    }
+
+    #add_btn {
+      background-color: #8bde0e;
+      font-weight: bold;
+      border-radius: 5px;
+      border: 0.25px solid black;
+    }
+
+    li {
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: normal;
+    }
+
+    #add_btn:hover {
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    #list-container li {
+      margin-bottom: 10px;
+      text-align: left;
+      list-style-type: square;
+    }
+
+    #heading {
+      font-family: 'Courier New', Courier, monospace;
+      font-style: bold;
+      color: rgb(251, 0, 171);
+      position: relative;
+      text-align: center;
+      height: auto;
+      width: 200px;
+      left: 30%;
+      
+
+    #htxt{
+      border-color: rgb(20, 1, 1);
+      border:solid;
+      border-width: 2px;
+      text-align: center;
+      border-radius: 5px;
+      background-color: rgb(67, 65, 65);
+    }
+    }
+
+    #clr_btn {
+      background-color: red;
+      color: black;
+      border: 0.25px solid black;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    #clr_btn:hover {
+      background-color: black;
+      color: red;
+      cursor: pointer;
+      transition: 0.25s;
+    }
+
+    #framer {
+      width: 90%;
+      max-width: 600px;
+      height: auto;
+      overflow: auto;
+      padding: 20px;
+      background-color: lightblue;
+      text-align: center;
+      margin-left: 30%;
+      margin-top: 5%;
+      border-color: darkgray;
+      border-style: solid;
+      border-radius: 10px;
+    }
+
+    .date-time {
+      font-size: 0.6em;
+      color: gray;
+    }
+
+    body {
+      background-image: url('https://images.pexels.com/photos/3183132/pexels-photo-3183132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+ 
